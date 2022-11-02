@@ -23,7 +23,7 @@ public class GetRequest02 {
         response.then().assertThat().header("Via","1.1 vegur");
         response.then().assertThat().header("Server","cloudflare");
 
-        // Body Test - id'si 1 olanın datalarının aşağıdaki gibi olup olmadığını test ediniz.
+        // Body Test - id'si 1 olan body'nin datalarının aşağıdaki gibi olup olmadığını test ediniz.
         /*
             "id": 1,
             "email": "george.bluth@reqres.in",
