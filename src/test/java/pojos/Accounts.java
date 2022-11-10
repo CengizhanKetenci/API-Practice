@@ -1,6 +1,24 @@
 package pojos;
 
-public class AccountPojo {
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Accounts {
+    /*
+“accounts”: [
+        {
+            “id”: 107250,
+            “description”: “New Account_6thGenQA_01",
+            “balance”: 11190,
+            “accountType”: “CHECKING”,
+            “accountStatusType”: “ACTIVE”,
+            “createDate”: “2021-11-24T23:00:00Z”,
+            “closedDate”: “2022-11-24T23:00:00Z”,
+            “employee”: null,
+            “accountlogs”: null
+        }
+ */
 
     private int id;
     private String description;
@@ -12,7 +30,7 @@ public class AccountPojo {
     private String employee;
     private String accountlogs;
 
-    public AccountPojo(int id, String description, int balance, String accountType, String accountStatusType, String createDate, String closedDate, String employee, String accountlogs) {
+    public Accounts(int id, String description, int balance, String accountType, String accountStatusType, String createDate, String closedDate, String employee, String accountlogs) {
         this.id = id;
         this.description = description;
         this.balance = balance;
@@ -24,7 +42,7 @@ public class AccountPojo {
         this.accountlogs = accountlogs;
     }
 
-    public AccountPojo() {
+    public Accounts() {
     }
 
     public int getId() {
@@ -115,17 +133,4 @@ public class AccountPojo {
     }
 }
 
-/*
-“accounts”: [
-        {
-            “id”: 107250,
-            “description”: “New Account_6thGenQA_01",
-            “balance”: 11190,
-            “accountType”: “CHECKING”,
-            “accountStatusType”: “ACTIVE”,
-            “createDate”: “2021-11-24T23:00:00Z”,
-            “closedDate”: “2022-11-24T23:00:00Z”,
-            “employee”: null,
-            “accountlogs”: null
-        }
- */
+

@@ -1,20 +1,15 @@
 package day03;
 
-import com.sun.security.jgss.AuthorizationDataEntry;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import org.hamcrest.Matcher;
-import org.hamcrest.Matchers;
-import org.junit.Assert;
 import org.junit.Test;
-import utilities.GMIBankBaseUrl;
+import utilities.GMIBankBaseURL;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
-public class GetRequest07 extends GMIBankBaseUrl {
+public class GetRequest07 extends GMIBankBaseURL {
     /*
     http://www.gmibank.com/api/tp-customers/110472 adresindeki müşteri bilgilerini doğrulayın
    “firstName”: “Melva”,

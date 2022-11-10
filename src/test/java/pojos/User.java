@@ -1,7 +1,22 @@
 package pojos;
 
-public class UserPojo {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class User {
+    /*
+“user”: {
+        “id”: 110016,
+        “login”: “leopoldo.reinger”,
+        “firstName”: “Jasmine”,
+        “lastName”: “Stehr”,
+        “email”: “marni.zboncak@yahoo.com”,
+        “activated”: true,
+        “langKey”: “en”,
+        “imageUrl”: null,
+        “resetDate”: null
+    },
+ */
     private int id;
     private String login;
     private String firstName;
@@ -12,7 +27,7 @@ public class UserPojo {
     private String imageUrl;
     private String resetDate;
 
-    public UserPojo(int id, String login, String firstName, String lastName, String email, Boolean activated, String langKey, String imageUrl, String resetDate) {
+    public User(int id, String login, String firstName, String lastName, String email, Boolean activated, String langKey, String imageUrl, String resetDate) {
         this.id = id;
         this.login = login;
         this.firstName = firstName;
@@ -24,7 +39,7 @@ public class UserPojo {
         this.resetDate = resetDate;
     }
 
-    public UserPojo() {
+    public User() {
     }
 
     public int getId() {
@@ -114,17 +129,5 @@ public class UserPojo {
                 '}';
     }
 }
-/*
-“user”: {
-        “id”: 110016,
-        “login”: “leopoldo.reinger”,
-        “firstName”: “Jasmine”,
-        “lastName”: “Stehr”,
-        “email”: “marni.zboncak@yahoo.com”,
-        “activated”: true,
-        “langKey”: “en”,
-        “imageUrl”: null,
-        “resetDate”: null
-    },
- */
+
 

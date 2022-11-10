@@ -5,27 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fff6e4d-be5b-4900-811f-4d8a9bdd7780" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/GetRequest04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/GetRequest05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/GetRequest06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/GetRequest07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/GetRequest08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/AccountPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/CountryPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/CustomerPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/UserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/GMIBankBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/GMIBank01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/GetRequest09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/CountryPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ObjectMapperUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WriteToText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/GetRequest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/GetRequest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/GetRequest03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ozet" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ozet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GetRequest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03/GetRequest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03/GetRequest07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03/GetRequest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03/GetRequest08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/AccountPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/CountryPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/CustomerPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojos/UserPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojos/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/GMIBankBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/GMIBankBaseURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day03/GetRequest07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day03/GetRequest07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day03/GetRequest08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day03/GetRequest08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Authentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Authentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/GMIBankBaseUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/GMIBankBaseUrl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,80 +61,101 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\APIPractice\src\test\java\utilities" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day04" />
+      <recent name="utilities" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetRequest08.get08">
-    <configuration name="Authentication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilities.Authentication" />
+  <component name="RunManager" selected="JUnit.GMIBank01.test10">
+    <configuration name="GMIBank01.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilities.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest05.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APIPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day02" />
-      <option name="MAIN_CLASS_NAME" value="day02.GetRequest05" />
-      <option name="METHOD_NAME" value="test05" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.GMIBank01" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest06.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day02" />
-      <option name="MAIN_CLASS_NAME" value="day02.GetRequest06" />
-      <option name="METHOD_NAME" value="test06" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.GetRequest09" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest09.test09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.GetRequest09" />
+      <option name="METHOD_NAME" value="test09" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest07.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.GetRequest07" />
-      <option name="METHOD_NAME" value="test07" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.PostRequest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRequest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.PostRequest" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest08.get08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostRequest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03.*" />
+          <option name="PATTERN" value="day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.GetRequest08" />
-      <option name="METHOD_NAME" value="get08" />
+      <option name="PACKAGE_NAME" value="day04" />
+      <option name="MAIN_CLASS_NAME" value="day04.PostRequest" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetRequest08.get08" />
-        <item itemvalue="JUnit.GetRequest07.test07" />
-        <item itemvalue="JUnit.GetRequest06.test06" />
-        <item itemvalue="Application.Authentication" />
-        <item itemvalue="JUnit.GetRequest05.test05" />
+        <item itemvalue="JUnit.GMIBank01.test10" />
+        <item itemvalue="JUnit.PostRequest.test10" />
+        <item itemvalue="JUnit.GetRequest09.test09" />
+        <item itemvalue="JUnit.GetRequest09" />
+        <item itemvalue="JUnit.PostRequest" />
       </list>
     </recent_temporary>
   </component>

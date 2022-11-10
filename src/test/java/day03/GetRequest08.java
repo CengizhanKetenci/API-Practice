@@ -2,9 +2,8 @@ package day03;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.Test;
-import utilities.GMIBankBaseUrl;
+import utilities.GMIBankBaseURL;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +12,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
-public class GetRequest08 extends GMIBankBaseUrl {
+public class GetRequest08 extends GMIBankBaseURL {
 
     /*
     http://www.gmibank.com/api/tp-customers/43703

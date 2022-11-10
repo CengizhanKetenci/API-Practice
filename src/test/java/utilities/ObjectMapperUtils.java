@@ -1,0 +1,31 @@
+package utilities;
+
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import pojos.Customer;
+
+import java.io.IOException;
+
+public class ObjectMapperUtils {
+
+    // new ObjectMapper().readValue(jsonInString, HashMap.class);
+
+    private static ObjectMapper mapper;
+
+    static {
+        mapper = new ObjectMapper();
+    }
+    public static <T> T convertJsonToJava(String json, Class<T> cls){ // Generic Method
+
+        T javaResult = null;
+        try {
+            javaResult= mapper.readValue(json, cls);
+        } catch (IOException e) {
+            System.err.println("JSon datası java'ya dönüştürülemedi");
+            throw new RuntimeException(e);
+
+        }
+        return javaResult;
+    }
+
+}
